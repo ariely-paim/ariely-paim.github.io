@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1&display=swap');
 :root {
-    --cor-primaria:;
-    --cor-secundaria:;
-    --cor-texto:;
+    --cor-primaria: #F0F0F0;
+    --cor-secundaria: #91C8E4;
+    --cor-texto: #191717;
 
-    --font-principal:;
-    --font-secundaria:;
+    --font-principal: font-family: 'Alegreya Sans SC', sans-serif;;
+    --font-secundaria: font-family: 'Handlee', cursive;;
 }
