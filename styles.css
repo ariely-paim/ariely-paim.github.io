@@ -183,6 +183,7 @@
 .navbar .navbar__content .navbar__links a:hover{
     color: var(--cor-terciaria);
     transform: scale(1.25);
+    transition: .3s;
 }
 
 /*--header--*/
@@ -250,4 +251,47 @@ header .header__right .header__image .ariely{
 .about .about__right{
     max-width: 66rem;
     flex: 1;
+}
+
+/*skills*/
+.skills{
+    background-color: var(--cor-secundaria);
+    scroll-margin-top: 15rem;
+}
+
+.skills .skills__content{
+    padding: 6rem 4rem;
+    text-align: center;
+}
+
+.skills .skills__content .description{
+    max-width: 56rem;
+    margin: 0 auto 6rem;
+}
+
+.skills .skills__content ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.skills .skills__content ul .skills__box{
+    border: 2px solid var(--cor-terciaria);
+    padding: 30px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.skills .skills__content ul .skills__box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px var(--cor-terciaria);
+}
+
+.skills .skills__content ul .skills__box i{
+    font-size: 50px;
+    color: var(--cor-terciaria);
+}
+
+.skills .skills__content ul li h3{
+    font-weight: 500;
 }
