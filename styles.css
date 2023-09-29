@@ -290,6 +290,70 @@ header .header__right .header__image .ariely{
   align-items: center;
 }
 
+.icon {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border-radius: 30px;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
+  cursor: pointer;
+  margin: 3px;
+  overflow: hidden;
+}
+.icon i{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: var(--cor-terciaria);
+  color: rgb(252, 236, 225); 
+  cursor: pointer;
+}
+.icon span a{
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+  float: right;
+  margin-right: 23px;
+  font-weight: 100;
+  color: #64574d;
+  line-height: 35px;
+  font-size: 17px;
+}
+.name-icon {
+  font-family: 'Oswald', sans-serif;
+  margin-right: 40px;
+  float: right;
+  color: #64574d;
+  font-weight: 100;
+  line-height: 35px;
+  font-size: 17px;
+}
+.icon:hover{
+  width: 125px;
+  background-color: rgb(163, 160, 157);
+  border-radius: 20px;
+}
+
+.icon:nth-child(1):hover i{
+  background: #0e76a8;
+}
+.icon:nth-child(2):hover i{
+  background: #5d1591;
+}
+.icon:nth-child(3):hover i{
+  background: #C4302B;
+}
+.icon:nth-child(4):hover i{
+  background: #C13584;
+}
+.icon:nth-child(5):hover i{
+  background: white;
+}
+
 /*skills*/
 .skills{
     background-color: var(--cor-secundaria);
