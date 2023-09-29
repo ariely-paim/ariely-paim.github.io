@@ -240,7 +240,7 @@ header .header__right .header__image .ariely{
 }
 
 .about .about__left{
-    max-width: 40rem;
+    max-width: 54rem;
     flex: 1;
 }
 
@@ -249,7 +249,7 @@ header .header__right .header__image .ariely{
 }
 
 .about .about__right{
-    max-width: 66rem;
+    max-width: 68rem;
     flex: 1;
 }
 
