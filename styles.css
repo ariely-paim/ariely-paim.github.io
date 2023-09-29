@@ -321,6 +321,7 @@ header .header__right .header__image .ariely{
     height: 40rem;
     background-size: cover;
     background-position: 100% 0%;
+    position: relative;
     border-radius: 2.5rem;
     transition: .8s;
     cursor: pointer;
