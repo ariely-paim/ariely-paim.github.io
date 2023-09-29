@@ -344,3 +344,12 @@ header .header__right .header__image .ariely{
     transform: scale(1.15);
     box-shadow: 0 0 10px var(--cor-terciaria);
 }
+
+/*contact*/
+.contact{
+    scroll-margin-top: 15rem;
+}
+
+.contact .contact__content{
+
+}
