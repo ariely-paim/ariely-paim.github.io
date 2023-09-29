@@ -50,7 +50,7 @@
   h1 {
     font-size: 6.4rem;
     font-weight: 700;
-    color: var(--);
+    color: var(--cor-texto);
   }
   
   .titulo-secundario {
@@ -96,7 +96,7 @@
   
   .max-width {
     width: 100%;
-    max-width: 150rem;
+    max-width: 140rem;
     padding: 0 4rem;
     margin: 0 auto;
     margin-bottom: 26rem;
@@ -261,7 +261,7 @@ header .header__right .header__image .ariely{
 }
 
 .about .about__right{
-    max-width: 68rem;
+    max-width: 64rem;
     flex: 1;
 }
 
