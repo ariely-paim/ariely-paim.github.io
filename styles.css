@@ -397,3 +397,10 @@ form .btn input:hover{
     transform: scale(1.15);
     box-shadow: 0 0 10px var(--cor-terciaria);
 }
+
+/*footer*/
+footer{
+    padding: 2rem 2rem;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+}
