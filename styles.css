@@ -325,7 +325,7 @@ header .header__right .header__image .ariely{
 }
 
 .icon:hover{
-  width: 125px;
+  width: 14rem;
   background-color: rgb(192, 191, 190);
   border-radius: 20px;
 }
@@ -343,7 +343,7 @@ header .header__right .header__image .ariely{
   background: #C13584;
 }
 .icon:nth-child(5):hover i{
-  background: white;
+  background: #78c76a;
 }
 
 /*skills*/
