@@ -96,7 +96,7 @@
   
   .max-width {
     width: 100%;
-    max-width: 120rem;
+    max-width: 160rem;
     padding: 0 4rem;
     margin: 0 auto;
     margin-bottom: 26rem;
@@ -300,23 +300,45 @@ header .header__right .header__image .ariely{
 .projects{
     margin-bottom: 16rem;
     scroll-margin-top: 15rem;
+    text-align: center;
 }
 
-.projects .projects__content{
+/*.projects .projects__content{
     max-width: 56rem;
     text-align: center;
     margin: 0 auto 6rem;
-}
+}*/
 
-.projects ul{
+.projects .projects__flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 
-.projects ul .img__portfolio{
-    width: 23rem;
-    height: 29rem;
-    background-color: var(--cor-terciaria);
+.projects .img__portfolio{
+    width: 75rem;
+    height: 40rem;
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 2.5rem;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.projects .img__portfolio:hover{
+    background-position: 100% 100%;
+}
+
+.projects a{
+    font-size: 2rem;
+    font-weight: 500;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 2.5rem;
+    transition: .3s;
+}
+
+.projects a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px var(--cor-terciaria);
 }
