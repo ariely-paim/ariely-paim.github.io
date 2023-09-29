@@ -7,7 +7,7 @@
     --cor-secundaria: #F9F4EE;
     --cor-terciaria:#38A3A5;
     --cor-texto--light: #f3f6fb;
-    --cor-texto: #343d48;
+    --cor-texto: #000000;
 
     --primary-color: #02073e;
     --secondary-color: #0f2137;
@@ -56,14 +56,14 @@
   .titulo-secundario {
     font-size: 4rem;
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--cor-texto);
   }
   
   .titulo-terciario {
     font-size: 3.2rem;
     font-weight: 500;
     line-height: 4.5rem;
-    color: var(--secondary-color);
+    color: var(--cor-texto);
   }
   
   p,
