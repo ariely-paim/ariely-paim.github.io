@@ -209,6 +209,7 @@ header .header__left p{
 header .header__right .header__image{
     position: relative;
     line-height: 0;
+    margin-right: 20rem;
 }
 
 header .header__right .header__image::after{
@@ -220,12 +221,13 @@ header .header__right .header__image::after{
     position: absolute;
     top: -1.5rem;
     right: -1.5rem;
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     z-index: -1;
 }
 
 header .header__right .header__image .ariely{
-    border-radius: 0.5rem;
+    
+    border-radius: 1.5rem;
     max-width: 100%;
     min-width: 25rem;
 }
