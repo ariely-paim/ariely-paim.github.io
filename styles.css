@@ -226,7 +226,7 @@ header .header__right .header__image::after{
 }
 
 header .header__right .header__image .ariely{
-    
+    width: 30rem;
     border-radius: 1.5rem;
     max-width: 100%;
     min-width: 25rem;
