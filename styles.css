@@ -315,26 +315,18 @@ header .header__right .header__image .ariely{
 }
 .icon span a{
   list-style: none;
-  font-family: 'Oswald', sans-serif;
+  font-family: var(--font-principal);
   float: right;
   margin-right: 23px;
   font-weight: 100;
-  color: #64574d;
+  color: #3a332c;
   line-height: 35px;
-  font-size: 17px;
+  font-size: 18px;
 }
-.name-icon {
-  font-family: 'Oswald', sans-serif;
-  margin-right: 40px;
-  float: right;
-  color: #64574d;
-  font-weight: 100;
-  line-height: 35px;
-  font-size: 17px;
-}
+
 .icon:hover{
   width: 125px;
-  background-color: rgb(163, 160, 157);
+  background-color: rgb(192, 191, 190);
   border-radius: 20px;
 }
 
