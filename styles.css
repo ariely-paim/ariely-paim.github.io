@@ -332,6 +332,7 @@ header .header__right .header__image .ariely{
 }
 
 .projects a{
+    padding: 2rem 2rem;
     font-size: 2rem;
     font-weight: 500;
     border: 2px solid var(--cor-terciaria);
@@ -340,6 +341,6 @@ header .header__right .header__image .ariely{
 }
 
 .projects a:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 8px var(--cor-terciaria);
+    transform: scale(1.15);
+    box-shadow: 0 0 10px var(--cor-terciaria);
 }
