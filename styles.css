@@ -332,11 +332,14 @@ header .header__right .header__image .ariely{
 }
 
 .projects a{
+    background-color: var(--cor-secundaria);
     padding: 2rem 2rem;
     font-size: 2rem;
     font-weight: 500;
-    border: 2px solid var(--cor-terciaria);
+    border: 0;
+    outline: 0;
     border-radius: 2.5rem;
+    cursor: pointer;
     transition: .3s;
 }
 
@@ -354,7 +357,8 @@ header .header__right .header__image .ariely{
 
 form{
     max-width: 32rem;
-    margin: 0 auto;
+    margin: 1rem auto 6rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -372,3 +376,24 @@ form input, form textarea{
     font-size: 2rem;
 }
 
+form textarea{
+    resize: none;
+    max-width: 40rem;
+}
+
+form .btn{
+    margin-top: 3rem;
+}
+
+form .btn input{
+    width: 12rem;
+    color: var(--cor-texto);
+    font-weight: 550;
+    transition: .3s;
+    cursor: pointer;
+}
+
+form .btn input:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 10px var(--cor-terciaria);
+}
