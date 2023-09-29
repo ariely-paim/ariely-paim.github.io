@@ -253,6 +253,17 @@ header .header__right .header__image .ariely{
     flex: 1;
 }
 
+/*redes sociais*/
+.redes__sociais{
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  scroll-margin-left: 16rem;
+  align-items: center;
+}
+
 /*skills*/
 .skills{
     background-color: var(--cor-secundaria);
