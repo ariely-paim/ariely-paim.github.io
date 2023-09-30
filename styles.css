@@ -6,6 +6,7 @@
     --cor-primaria: #191717;;
     --cor-secundaria: #F9F4EE;
     --cor-terciaria:#38A3A5;
+    --cor-quaternaria: #bfc8f1;
     --cor-texto--light: #f3f6fb;
     --cor-texto: #000000;
 
@@ -155,7 +156,7 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
     color: var(--cor-texto);
     font-weight: 550;
 }
@@ -181,7 +182,7 @@
 }
 
 .navbar .navbar__content .navbar__links a:hover{
-    color: var(--cor-terciaria);
+    color: var(--cor-texto--light);
     transform: scale(1.25);
     transition: .3s;
 }
@@ -328,7 +329,7 @@ header .header__right .header__image .ariely{
 
 .icon:hover{
   width: 14rem;
-  background-color: rgb(192, 191, 190);
+  background-color: var(--cor-secundaria);
   border-radius: 20px;
 }
 
@@ -496,6 +497,6 @@ form .btn input:hover{
 /*footer*/
 footer{
     padding: 2rem 2rem;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
     text-align: center;
 }
