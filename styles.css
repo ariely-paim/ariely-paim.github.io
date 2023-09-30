@@ -91,7 +91,7 @@
   .btn.btn-primary {
     background-color: var(--cor-terciaria);
     color: var(--cor-texto--light);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2rem;
   }
   
@@ -205,6 +205,23 @@ header .header__left p{
     margin-top: 4rem;
     margin-bottom: 4rem;
     max-width: 50rem;
+}
+
+header .header__left a{
+  background-color: var(--cor-secundaria);
+  padding: 2rem 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  border: 0;
+  outline: 0;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+header .header__left a:hover{
+  transform: scale(1.15);
+  box-shadow: 0 0 10px var(--cor-terciaria);
 }
 
 header .header__right .header__image{
