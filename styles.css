@@ -184,7 +184,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1250px) {
   .navbar .navbar__content .navbar__links {
     display: none;
   }
@@ -296,6 +296,12 @@ header .header__right .header__image .ariely{
   header .header__left p {
     margin: 2rem auto 4rem;
   }
+
+  header .header__right .header__image .ariely{
+    width: 10rem;
+    max-width: 100%;
+    min-width: 25rem;
+}
 }
 
 /*about*/
