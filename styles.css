@@ -487,15 +487,21 @@ header .header__right .header__image .ariely{
     transition: .3s;
 }
 
-@media screen and (max-width: 1020px) {
+.projects a:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 10px var(--cor-terciaria);
+}
+
+@media screen and (max-width: 1250px) {
   .projects__flex{
     flex-direction: column;
   }
 }
 
-.projects a:hover{
-    transform: scale(1.15);
-    box-shadow: 0 0 10px var(--cor-terciaria);
+@media screen and (max-width: 1000px) {
+  .projects__flex{
+    flex-direction: column;
+  }
 }
 
 /*curriculo*/
