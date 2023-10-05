@@ -1,18 +1,12 @@
-const mode = document.getElementById('mode_icon');
+const navbar = document.querySelector('.navbar');
+const mobileNavbar = document.querySelector('.navbar__mobile');
+const button = document.querySelector('.menu');
 
-mode.addEventListener('click', () => {
-    const form = document.getElementById('modeduo');
+button.addEventListener('click', function () {
+  mobileNavbar.classList.toggle('active');
+});
 
-    if(mode.classList.contains('fa-moon')) {
-        mode.classList.remove('fa-moon');
-        mode.classList.add('fa-sun');
-
-        form.classList.add('dark');
-        return ;
-    }
-    
-    mode.classList.remove('fa-sun');
-    mode.classList.add('fa-moon');
-
-    form.classList.remove('dark');
+window.addEventListener('scroll', function () {
+  if (this.window.pageYOffset > 0) return navbar.classList.add('active');
+  return navbar.classList.remove('active');
 });
