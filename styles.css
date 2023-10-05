@@ -453,12 +453,6 @@ header .header__right .header__image .ariely{
     text-align: center;
 }
 
-/*.projects .projects__content{
-    max-width: 56rem;
-    text-align: center;
-    margin: 0 auto 6rem;
-}*/
-
 .projects .projects__flex{
     display: flex;
     justify-content: space-around;
@@ -491,6 +485,12 @@ header .header__right .header__image .ariely{
     border-radius: 2.5rem;
     cursor: pointer;
     transition: .3s;
+}
+
+@media screen and (max-width: 1020px) {
+  .projects__flex{
+    flex-direction: column;
+  }
 }
 
 .projects a:hover{
