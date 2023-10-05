@@ -649,20 +649,20 @@ header .header__right .header__image .ariely{
   font-size: 2.2rem;
 }
 
-@media only screen and (max-width: 768px) {
-.curriculo {
-  flex-direction: column;
-  align-items: center;
-}
+@media only screen and (max-width: 880px) {
+  .curriculo {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.curriculo .curriculo__left {
-  max-width: 66rem;
-  text-align: center;
-}
+  .curriculo .curriculo__left {
+    max-width: 66rem;
+    text-align: center;
+  }
 
-.curriculo .curriculo__right {
-  text-align: center;
-}
+  .curriculo .curriculo__right {
+    text-align: center;
+  }
 }
 
 /*contact*/
