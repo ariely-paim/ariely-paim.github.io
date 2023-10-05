@@ -115,7 +115,7 @@
     margin-bottom: 6rem;
   }
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1250px) {
     html {
       font-size: 60%;
     }
@@ -125,7 +125,7 @@
     }
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 800px) {
     html {
       font-size: 58%;
     }
@@ -304,7 +304,7 @@ header .header__right .header__image .ariely{
 }
 }
 
-/*about*/
+/*sobre mim*/
 .about{
     display: flex;
     justify-content: space-between;
@@ -364,6 +364,7 @@ header .header__right .header__image .ariely{
   margin: 3px;
   overflow: hidden;
 }
+
 .icon i{
   display: inline-block;
   width: 35px;
@@ -382,7 +383,7 @@ header .header__right .header__image .ariely{
   float: right;
   margin-right: 23px;
   font-weight: 100;
-  color: #3a332c;
+  color: var(--cor-terciaria);
   line-height: 35px;
   font-size: 18px;
 }
@@ -409,7 +410,7 @@ header .header__right .header__image .ariely{
   background: #78c76a;
 }
 
-/*skills*/
+/*habilidades*/
 .skills{
     background-color: var(--cor-secundaria);
     scroll-margin-top: 15rem;
@@ -452,7 +453,7 @@ header .header__right .header__image .ariely{
     font-weight: 500;
 }
 
-/*projects*/
+/*projetos*/
 .projects{
     margin-bottom: 16rem;
     scroll-margin-top: 15rem;
@@ -665,7 +666,7 @@ header .header__right .header__image .ariely{
   }
 }
 
-/*contact*/
+/*contato*/
 .contact{
     margin-bottom: 16rem;
     scroll-margin-top: 15rem;
