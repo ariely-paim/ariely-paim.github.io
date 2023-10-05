@@ -514,17 +514,51 @@ header .header__right .header__image .ariely{
 }
 
 .curriculo .curriculo__left{
-  max-width: 54rem;
+  max-width: 60rem;
   flex: 1;
 }
+
+.curriculo__left p b{
+  font-size: 2.5rem;
+}
+
+.curriculo__left p a{
+  font-size: 2.2rem;
+}
+
+.curriculo .curriculo__left h2{
+  font-size: 3.2rem;
+}
+
+.curriculo .curriculo__right h4{
+  font-size: 2.4rem;
+}
+
 
 .curriculo .curriculo__left p{
   margin: 1rem 0 2rem;
+  font-size: 2.2rem;
 }
 
 .curriculo .curriculo__right{
-  max-width: 64rem;
+  max-width: 56rem;
   flex: 1;
+}
+.curriculo .curriculo__left h4{
+  font-size: 2.4rem;
+}
+
+.curriculo .curriculo__right h2{
+  font-size: 3.2rem;
+}
+
+.curriculo .curriculo__right p{
+  margin: 1rem 0 2rem;
+  font-size: 2.2rem;
+}
+
+.curriculo .curriculo__right ul li{
+  font-size: 2.2rem;
 }
 
 @media only screen and (max-width: 768px) {
