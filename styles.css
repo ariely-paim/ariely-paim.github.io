@@ -496,11 +496,50 @@ header .header__right .header__image .ariely{
   .projects__flex{
     flex-direction: column;
   }
+
+  .projects .img__portfolio{
+    width: 65rem;
+    height: 40rem;
+}
+
+.projects a{
+    background-color: var(--cor-secundaria);
+    padding: 2rem 2rem;
+    font-size: 1.8rem;
+}
 }
 
 @media screen and (max-width: 1000px) {
   .projects__flex{
     flex-direction: column;
+  }
+
+  .projects .img__portfolio{
+    width: 55rem;
+    height: 40rem;
+}
+
+  .projects a{
+    background-color: var(--cor-secundaria);
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects__flex{
+    flex-direction: column;
+  }
+
+  .projects .img__portfolio{
+    width: 45rem;
+    height: 40rem;
+}
+
+  .projects a{
+    background-color: var(--cor-secundaria);
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
   }
 }
 
