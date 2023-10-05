@@ -461,6 +461,44 @@ header .header__right .header__image .ariely{
     box-shadow: 0 0 10px var(--cor-terciaria);
 }
 
+/*curriculo*/
+.curriculo{
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  scroll-margin-left: 20rem;
+}
+
+.curriculo .curriculo__left{
+  max-width: 54rem;
+  flex: 1;
+}
+
+.curriculo .curriculo__left p{
+  margin: 1rem 0 2rem;
+}
+
+.curriculo .curriculo__right{
+  max-width: 64rem;
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+.curriculo {
+  flex-direction: column;
+  align-items: center;
+}
+
+.curriculo .curriculo__left {
+  max-width: 66rem;
+  text-align: center;
+}
+
+.curriculo .curriculo__right {
+  text-align: center;
+}
+}
+
 /*contact*/
 .contact{
     margin-bottom: 16rem;
