@@ -463,14 +463,9 @@ header .header__right .header__image .ariely{
 
 /*curriculo*/
 .curriculo{
-  width: 100%;
-  max-width: 150rem;
-  padding: 0 4rem;
-  margin: 0 auto;
-  margin-bottom: 20rem;
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 4rem;
   scroll-margin-left: 10rem;
 }
 
