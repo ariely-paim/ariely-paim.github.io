@@ -401,12 +401,9 @@ header .header__right .header__image .ariely{
   background: #5d1591;
 }
 .icon:nth-child(3):hover i{
-  background: #C4302B;
-}
-.icon:nth-child(4):hover i{
   background: #C13584;
 }
-.icon:nth-child(5):hover i{
+.icon:nth-child(4):hover i{
   background: #78c76a;
 }
 
